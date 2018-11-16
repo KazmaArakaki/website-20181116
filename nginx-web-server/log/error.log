@@ -1,0 +1,4 @@
+2018/11/16 06:41:39 [error] 9#9: *1 "/var/www/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8001"
+2018/11/16 06:41:39 [error] 9#9: *1 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8001"
+2018/11/16 06:41:40 [error] 9#9: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8001", referrer: "http://localhost:8001/"
+2018/11/16 06:41:40 [error] 9#9: *1 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8001", referrer: "http://localhost:8001/"

@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+
+  web-server:
+    build: ./nginx-web-server
+    image: nginx-web-server:local-build-Website-20181116
+    container_name: web-server
+    ports:
+      - 8001:80
+    volumes:
+      - ./nginx-web-server/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx-web-server/conf.d:/etc/nginx/conf.d
+      - ./nginx-web-server/log:/var/log/nginx
+      - ./nginx-web-server/www:/var/www
+
